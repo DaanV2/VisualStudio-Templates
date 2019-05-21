@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+	<TemplateData>
+		<Name>Interface</Name>
+		<Description>An empty Interface definition</Description>
+		<Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4586" />
+		<ProjectType>CSharp</ProjectType>
+		<TemplateID>Microsoft.CSharp.Class</TemplateID>
+		<SortOrder>90</SortOrder>    
+		<DefaultName>Interface.cs</DefaultName>	
+		<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+		<CreateNewFolder>true</CreateNewFolder>
+	</TemplateData>
+	<TemplateContent>
+		<References />
+		<ProjectItem TargetFileName="Interfaces\$fileinputname$\$fileinputname$.cs" ReplaceParameters="true">Interface.cs</ProjectItem>
+	</TemplateContent>
+</VSTemplate>

@@ -1,0 +1,21 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>View Model</Name>
+	<DefaultName>ViewModel.cs</DefaultName>    
+    <Description>An empty view model used by wpf controls for context</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Code</ProjectSubType>
+	<TemplateID>Microsoft.CSharp.Class</TemplateID>
+    <SortOrder>90</SortOrder>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+	<CreateNewFolder>true</CreateNewFolder>
+  </TemplateData>
+  <TemplateContent>
+	<References />
+	<ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Initialize.cs" ReplaceParameters="true">ViewModel - Initialize.cs</ProjectItem>
+	<ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Variables.cs" ReplaceParameters="true">ViewModel - Variables.cs</ProjectItem>
+	<ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Properties.cs" ReplaceParameters="true">ViewModel - Properties.cs</ProjectItem>
+	<ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Events.cs" ReplaceParameters="true">ViewModel - Events.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

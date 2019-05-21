@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Standard</DefaultName>
+    <Name>Standard</Name>
+    <Description>Standard files</Description>
+    <ProjectType>VC</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="stdafx.cpp" ReplaceParameters="true">stdafx.cpp</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="stdafx.h" ReplaceParameters="true">stdafx.h</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="stdEnviroment.h" ReplaceParameters="true">stdEnviroment.h</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="stdEnviroment_32.h" ReplaceParameters="true">stdEnviroment_32.h</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="stdEnviroment_64.h" ReplaceParameters="true">stdEnviroment_64.h</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="stdFunctions.h" ReplaceParameters="true">stdFunctions.h</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
