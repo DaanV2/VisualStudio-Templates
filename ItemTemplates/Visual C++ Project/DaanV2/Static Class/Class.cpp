@@ -2,7 +2,7 @@
 #include "$fileinputname$.h"
 
 namespace $rootnamespace$ {
-	$fileinputname$::$fileinputname$() {
+	static $fileinputname$::$fileinputname$() {
 
 	}
 }
