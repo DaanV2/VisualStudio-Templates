@@ -9,10 +9,7 @@ using namespace System;
 namespace $rootnamespace$ {
 	//DOLATER class description of $fileinputname$
 	public enum class $fileinputname$ {
-	private:
-	public:
-		//Creates a new instance of $fileinputname$
-		$fileinputname$();
+		
 	};
 }
 
