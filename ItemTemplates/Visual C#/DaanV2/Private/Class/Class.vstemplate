@@ -7,7 +7,7 @@
     <ProjectSubType>Code</ProjectSubType>
     <TemplateID>Microsoft.CSharp.Class</TemplateID>
     <SortOrder>90</SortOrder>
-    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+    <Icon Package="{976cf7d5-2a72-47a3-9e46-5b7c3db95f17}" ID="600"/>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <CreateNewFolder>true</CreateNewFolder>
   </TemplateData>
