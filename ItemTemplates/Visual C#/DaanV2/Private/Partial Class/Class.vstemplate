@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>Private Partial Class</Name>
+	<DefaultName>PartialClass.cs</DefaultName>    
+    <Description>An empty private partial class definition</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Code</ProjectSubType>
+	<TemplateID>Microsoft.CSharp.Class</TemplateID>
+    <SortOrder>90</SortOrder>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+	<CreateNewFolder>true</CreateNewFolder>
+  </TemplateData>
+  <TemplateContent>
+	<References />
+	<ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Initialize.cs" ReplaceParameters="true">Class - Initialize.cs</ProjectItem>
+	<ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Variables.cs" ReplaceParameters="true">Class - Variables.cs</ProjectItem>
+	<ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Properties.cs" ReplaceParameters="true">Class - Properties.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
