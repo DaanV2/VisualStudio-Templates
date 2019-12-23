@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace $rootnamespace$ {
-    ///DOLATER <summary> add description for class: $fileinputname$</summary>
+    ///DOLATER <summary>Add description for class: $fileinputname$</summary>
     internal partial class $fileinputname$ {
         //DOLATER Fill code file for $fileinputname$
     }

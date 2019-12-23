@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace $rootnamespace$ {
-    ///DOLATER <summary> add description for interface: $fileinputname$</summary>
+    ///DOLATER <summary>Add description for interface: $fileinputname$</summary>
     private interface $fileinputname$ {
 		  //TODO Add content to interface: $fileinputname$
     }

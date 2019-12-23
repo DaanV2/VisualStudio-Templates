@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace $rootnamespace$ {
-    ///DOLATER <summary> add description for abstract class: $fileinputname$</summary>
+    ///DOLATER <summary>add description for abstract class: $fileinputname$</summary>
     public abstract partial class $fileinputname$ {
         /// <summary>Creates a new instance of <see cref="$fileinputname$"/></summary>
         public $fileinputname$() {
