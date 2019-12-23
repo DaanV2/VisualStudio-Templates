@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace $rootnamespace$ {
     ///DOLATER <summary>Add description for struct: $fileinputname$</summary>
-	[Serializable, DataContract]
-    private partial struct $fileinputname$ {
+	    private partial struct $fileinputname$ {
         /// <summary>Creates a new instance of <see cref="$fileinputname$"/></summary>
         private $fileinputname$() {
             //TODO Fill Constructor for struct: $fileinputname$

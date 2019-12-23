@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace $rootnamespace$ {
     ///DOLATER <summary>add description for class: $fileinputname$</summary>
-	[Serializable, DataContract]
-    public partial class $fileinputname$ {
+	    public partial class $fileinputname$ {
         /// <summary>Creates a new instance of <see cref="$fileinputname$"/></summary>
         public $fileinputname$() {
             //TODO Fill Constructor for class: $fileinputname$

@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace $rootnamespace$ {
     ///DOLATER <summary>Add description for enumerator: $fileinputname$</summary>
-	[Serializable, DataContract]
-    internal enum $fileinputname$ {
+	    internal enum $fileinputname$ {
         
     }
 }
