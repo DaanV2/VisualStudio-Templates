@@ -13,6 +13,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$.cs" ReplaceParameters="true">Struct.cs</ProjectItem>
+    <ProjectItem TargetFileName="Structures\$fileinputname$\$fileinputname$.cs" ReplaceParameters="true">Struct.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
