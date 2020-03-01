@@ -7,24 +7,34 @@
         <CreateNewFolder>false</CreateNewFolder>
     </TemplateData>
     <TemplateContent>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Nuget\imagesicon.png">Nuget\imagesicon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Nuget\build.bat">Nuget\build.bat</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Nuget\Nuget Build.md">Nuget\Nuget Build.md</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Nuget\$safeprojectname$.nuspec">Nuget\Nuspecifcation.nuspec</ProjectItem>
+        
+        <ProjectItem ReplaceParameters="true" TargetFileName="LICENSE.txt">LICENSE.xt</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.code-workspace">workspace.code-workspace</ProjectItem>
+
         <ProjectCollection>
             <!--Source first!!-->
             <SolutionFolder Name="Source">
                 <ProjectTemplateLink ProjectName="Source">Source\MyTemplate.vstemplate</ProjectTemplateLink>
             </SolutionFolder>
             <SolutionFolder Name="API">
-                <ProjectTemplateLink CopyParameters="true" ProjectName="Framework4.8">Framework4.8\MyTemplate.vstemplate</ProjectTemplateLink>
-                <ProjectTemplateLink CopyParameters="true" ProjectName="NetCore3.0">NetCore3.0\MyTemplate.vstemplate</ProjectTemplateLink>
-                <ProjectTemplateLink CopyParameters="true" ProjectName="NetCore3.1">NetCore3.1\MyTemplate.vstemplate</ProjectTemplateLink>
-                <ProjectTemplateLink CopyParameters="true" ProjectName="Standard2.0">Standard2.0\MyTemplate.vstemplate</ProjectTemplateLink>
-                <ProjectTemplateLink CopyParameters="true" ProjectName="Standard2.1">Standard2.1\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="Framework4.8">API\Framework4.8\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="NetCore3.0">API\NetCore3.0\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="NetCore3.1">API\NetCore3.1\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="Standard2.0">API\Standard2.0\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="Standard2.1">API\Standard2.1\MyTemplate.vstemplate</ProjectTemplateLink>
             </SolutionFolder>
             <SolutionFolder Name="Solution Items">
+                
             </SolutionFolder>
             <SolutionFolder Name="Tests">
-                <ProjectTemplateLink ProjectName="Test - Source">Test - Source\MyTemplate.vstemplate</ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="Test.Net">Test.Net\MyTemplate.vstemplate</ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="Test.Net Core">Test.Net Core\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Test - Source">UnitTest\Test - Source\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Test.Net">UnitTest\Test.Net\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Test.Net Core">UnitTest\Test.Net Core\MyTemplate.vstemplate</ProjectTemplateLink>
             </SolutionFolder>
         </ProjectCollection>
     </TemplateContent>
