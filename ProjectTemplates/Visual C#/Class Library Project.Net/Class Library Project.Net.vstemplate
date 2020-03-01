@@ -1,0 +1,31 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>Class Library Project.Net</Name>
+        <Description>The default class library project for DaanV2 projects</Description>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <CreateNewFolder>false</CreateNewFolder>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <!--Source first!!-->
+            <SolutionFolder Name="Source">
+                <ProjectTemplateLink ProjectName="Source">Source\MyTemplate.vstemplate</ProjectTemplateLink>
+            </SolutionFolder>
+            <SolutionFolder Name="API">
+                <ProjectTemplateLink CopyParameters="true" ProjectName="Framework4.8">Framework4.8\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="NetCore3.0">NetCore3.0\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="NetCore3.1">NetCore3.1\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="Standard2.0">Standard2.0\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink CopyParameters="true" ProjectName="Standard2.1">Standard2.1\MyTemplate.vstemplate</ProjectTemplateLink>
+            </SolutionFolder>
+            <SolutionFolder Name="Solution Items">
+            </SolutionFolder>
+            <SolutionFolder Name="Tests">
+                <ProjectTemplateLink ProjectName="Test - Source">Test - Source\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Test.Net">Test.Net\MyTemplate.vstemplate</ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Test.Net Core">Test.Net Core\MyTemplate.vstemplate</ProjectTemplateLink>
+            </SolutionFolder>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>
