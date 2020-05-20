@@ -1,5 +1,6 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
+    <ID>daanv2.public.sealed.struct</ID>
     <Name>Public Sealed Struct</Name>
     <DefaultName>Struct.cs</DefaultName>
     <Description>An sealed empty public struct definition</Description>

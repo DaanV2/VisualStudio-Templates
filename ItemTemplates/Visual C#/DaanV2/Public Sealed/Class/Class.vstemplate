@@ -1,5 +1,6 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
+    <ID>daanv2.public.sealed.class</ID>
     <Name>Public Sealed Class</Name>
     <DefaultName>Class.cs</DefaultName>
     <Description>An empty sealed public partial class definition, but only one file</Description>
