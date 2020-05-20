@@ -5,7 +5,7 @@
     <Description>An empty view model used by wpf controls for context</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Code</ProjectSubType>
-	<TemplateID>Microsoft.CSharp.Class</TemplateID>
+	  <TemplateID>daanv2.wpf.viewmodel</TemplateID>
     <SortOrder>90</SortOrder>
     <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>

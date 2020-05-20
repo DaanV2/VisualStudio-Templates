@@ -5,7 +5,7 @@
 	<Description>An empty internal static partial class, but only one file</Description>
 	<ProjectType>CSharp</ProjectType>
 	<ProjectSubType>Code</ProjectSubType>
-	<TemplateID>Microsoft.CSharp.Class</TemplateID>
+	<TemplateID>daanv2.internal.static.class</TemplateID>
 	<SortOrder>90</SortOrder>
 	<Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
 	<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>

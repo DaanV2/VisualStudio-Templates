@@ -1,13 +1,11 @@
-<VSTemplate Version="3.0.0" 
-  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <ID>daanv2.public.sealed.partial.class</ID>
     <Name>Public Sealed Partial Class</Name>
     <DefaultName>PartialClass.cs</DefaultName>
     <Description>An sealed empty public partial class definition</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Code</ProjectSubType>
-    <TemplateID>Microsoft.CSharp.Class</TemplateID>
+    <TemplateID>daanv2.public.sealed.partial.class</TemplateID>
     <SortOrder>90</SortOrder>
     <Icon Package="{976cf7d5-2a72-47a3-9e46-5b7c3db95f17}" ID="600"/>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>

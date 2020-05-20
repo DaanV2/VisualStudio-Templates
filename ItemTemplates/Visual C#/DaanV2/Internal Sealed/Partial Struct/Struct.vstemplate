@@ -1,11 +1,11 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <Name>Public Sealed Partial Struct</Name>
+    <Name>Internal Sealed Partial Struct</Name>
     <DefaultName>PartialStruct.cs</DefaultName>
     <Description>An sealed empty internal partial struct definition</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Code</ProjectSubType>
-    <TemplateID>Microsoft.CSharp.Class</TemplateID>
+    <TemplateID>daanv2.internal.sealed.struct</TemplateID>
     <SortOrder>90</SortOrder>
     <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
