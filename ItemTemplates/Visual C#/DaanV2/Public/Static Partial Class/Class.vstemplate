@@ -4,7 +4,7 @@
 	<Name>Public Static Partial Class</Name>
 	<Description>An empty public static partial Class</Description>
 	<ProjectType>CSharp</ProjectType>
-	<ProjectSubType>Code</ProjectSubType>
+	
 	<TemplateID>daanv2.public.static.partial.class</TemplateID>
 	<SortOrder>90</SortOrder>
 	<Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />

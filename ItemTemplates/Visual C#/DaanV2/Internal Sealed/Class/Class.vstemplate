@@ -4,7 +4,7 @@
     <DefaultName>Class.cs</DefaultName>
     <Description>An empty sealed internal partial class definition, but only one file</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Code</ProjectSubType>
+    internal
     <TemplateID>daanv2.internal.sealed.class</TemplateID>
     <SortOrder>90</SortOrder>
     <Icon Package="{976cf7d5-2a72-47a3-9e46-5b7c3db95f17}" ID="600"/>

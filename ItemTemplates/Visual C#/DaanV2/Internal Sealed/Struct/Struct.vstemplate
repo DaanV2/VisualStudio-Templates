@@ -4,7 +4,7 @@
     <DefaultName>Struct.cs</DefaultName>
     <Description>An sealed empty internal struct definition</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>Code</ProjectSubType>
+    internal
     <TemplateID>daanv2.internal.sealed.struct</TemplateID>
     <SortOrder>90</SortOrder>
     <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
