@@ -1,11 +1,12 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <Name>Internal Partial Abstract Class</Name>
-	<DefaultName>PartialAbstractClass.cs</DefaultName>    
+	  <DefaultName>PartialAbstractClass.cs</DefaultName>    
     <Description>An empty internal partial class definition</Description>
     <ProjectType>CSharp</ProjectType>
     <AppliesTo>CSharp + SharedAssetsProject</AppliesTo>
     <TemplateID>daanv2.internal.partial.abstract.class</TemplateID>
+    <AppliesTo>CSharp + SharedAssetsProject</AppliesTo>
     <SortOrder>90</SortOrder>
     <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>

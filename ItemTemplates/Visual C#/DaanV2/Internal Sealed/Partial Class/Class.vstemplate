@@ -5,7 +5,7 @@
     <DefaultName>PartialClass.cs</DefaultName>
     <Description>An sealed empty internal partial class definition</Description>
     <ProjectType>CSharp</ProjectType>
-    internal
+    <AppliesTo>CSharp + SharedAssetsProject</AppliesTo>
     <TemplateID>daanv2.internal.sealed.partial.class</TemplateID>
     <SortOrder>90</SortOrder>
     <Icon Package="{976cf7d5-2a72-47a3-9e46-5b7c3db95f17}" ID="600"/>

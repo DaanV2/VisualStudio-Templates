@@ -4,6 +4,7 @@
 		<Description>An public empty Interface definition</Description>
 		<Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4586" />
 		<ProjectType>CSharp</ProjectType>
+		<AppliesTo>CSharp + SharedAssetsProject</AppliesTo>
 		<TemplateID>daanv2.public.interface</TemplateID>
 		<SortOrder>90</SortOrder>
 		<DefaultName>Interface.cs</DefaultName>
