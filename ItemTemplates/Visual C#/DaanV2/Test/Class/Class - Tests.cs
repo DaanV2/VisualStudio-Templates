@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace $rootnamespace$ {
-    [TestClass]
     public sealed partial class $fileinputname$ {
         [TestMethod]
         public void Test1() {

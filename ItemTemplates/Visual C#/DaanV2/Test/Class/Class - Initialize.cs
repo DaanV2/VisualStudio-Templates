@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace $rootnamespace$ {
     ///DOLATER <summary>The test class $fileinputname$ that tests: </summary>
-	    public sealed partial class $fileinputname$ {
+    [TestClass]
+    public sealed partial class $fileinputname$ {
         /// <summary>Creates a new instance of <see cref="$fileinputname$"/></summary>
         public $fileinputname$() {
 
