@@ -13,6 +13,6 @@
 	</TemplateData>
 	<TemplateContent>
 		<References />
-		<ProjectItem TargetFileName="Interfaces\$fileinputname$\$fileinputname$.cs" ReplaceParameters="true">Interface.cs</ProjectItem>
+		<ProjectItem TargetFileName="Interfaces\$fileinputname$.cs" ReplaceParameters="true">Interface.cs</ProjectItem>
 	</TemplateContent>
 </VSTemplate>
