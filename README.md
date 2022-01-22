@@ -5,5 +5,5 @@
 
 Clone to: 
 ```
-%USER%\Documents\Visual Studio 2019\Templates\
+%USER%\Documents\Visual Studio <Version>\Templates\
 ```
