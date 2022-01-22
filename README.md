@@ -1,4 +1,4 @@
-# VisualStudio-2019-Templates
+# VisualStudio-Templates
 
 
 ## Installation
