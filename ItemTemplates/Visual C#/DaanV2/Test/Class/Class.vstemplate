@@ -12,7 +12,6 @@
     <CreateNewFolder>true</CreateNewFolder>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Initialize.cs" ReplaceParameters="true">Class - Initialize.cs</ProjectItem>
-    <ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$ - Tests.cs" ReplaceParameters="true">Class - Tests.cs</ProjectItem>
+    <ProjectItem TargetFileName="Classes\$fileinputname$\$fileinputname$.cs" ReplaceParameters="true">Class - Tests.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
