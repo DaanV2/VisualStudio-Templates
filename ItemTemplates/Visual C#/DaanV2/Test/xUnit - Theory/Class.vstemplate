@@ -1,18 +1,17 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <Name>Public Enumerator</Name>
-    <DefaultName>Enumerator.cs</DefaultName>
-    <Description>An empty enumerator definition</Description>
+    <Name>xUnit Theory</Name>
+    <DefaultName>ClassTest.cs</DefaultName>
+    <Description>An empty xunit theory test class definition</Description>
     <ProjectType>CSharp</ProjectType>
     <AppliesTo>CSharp + SharedAssetsProject</AppliesTo>
-    <TemplateID>daanv2.public.enumerator</TemplateID>
+    <TemplateID>daanv2.test.xunit.theory</TemplateID>
     <SortOrder>90</SortOrder>
-    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+    <Icon Package="{976cf7d5-2a72-47a3-9e46-5b7c3db95f17}" ID="600"/>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <CreateNewFolder>true</CreateNewFolder>
   </TemplateData>
   <TemplateContent>
-    <References />
-    <ProjectItem TargetFileName="Enumerators\$fileinputname$.cs" ReplaceParameters="true">Enumerator.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Class - Tests.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

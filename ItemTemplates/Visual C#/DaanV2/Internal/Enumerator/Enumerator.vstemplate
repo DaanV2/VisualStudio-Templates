@@ -14,6 +14,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem TargetFileName="Enumerators\$fileinputname$\$fileinputname$.cs" ReplaceParameters="true">Enumerator.cs</ProjectItem>
+    <ProjectItem TargetFileName="Enumerators\$fileinputname$.cs" ReplaceParameters="true">Enumerator.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
