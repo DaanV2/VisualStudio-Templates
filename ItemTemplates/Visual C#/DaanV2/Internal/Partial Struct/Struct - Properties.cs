@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$ {
-    internal partial struct $fileinputname$ {
-		  //DOLATER add properties to struct $fileinputname$
-    }
+namespace $rootnamespace$;
+
+internal partial struct $fileinputname$ {
+    //DOLATER add properties to struct $fileinputname$
 }

@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$ {
-    public partial class $fileinputname$ {
-		private String _Text;
-    }
+namespace $rootnamespace$;
+
+public partial class $fileinputname$ {
+    private String _Text;
 }

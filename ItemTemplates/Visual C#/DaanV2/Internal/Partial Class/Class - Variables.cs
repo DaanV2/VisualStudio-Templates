@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$ {
-    internal partial class $fileinputname$ {
-		  //DOLATER add variables to class $fileinputname$
-    }
+namespace $rootnamespace$;
+
+internal partial class $fileinputname$ {
+    //DOLATER add variables to class $fileinputname$
 }
